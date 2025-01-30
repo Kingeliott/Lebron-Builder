@@ -38,22 +38,22 @@ let randomizeShoes = document.querySelectorAll(".randomizeShoes");
 
 randomizeHead.forEach(button => {
     button.addEventListener("click", function() {
-        headImageElement.src = "/lebronImgs/" + getRandomItem(images.head);
+        headImageElement.src = "lebronImgs/" + getRandomItem(images.head);
     });
 });
 randomizeChest.forEach(button => {
     button.addEventListener("click", function() {
-        chestImageElement.src = "/lebronImgs/" + getRandomItem(images.chest);
+        chestImageElement.src = "lebronImgs/" + getRandomItem(images.chest);
     });
 });
 randomizeShorts.forEach(button => {
     button.addEventListener("click", function() {
-        shortsImageElement.src = "/lebronImgs/" + getRandomItem(images.shorts);
+        shortsImageElement.src = "lebronImgs/" + getRandomItem(images.shorts);
     });
 });
 randomizeShoes.forEach(button => {
     button.addEventListener("click", function() {
-        shoesImageElement.src = "/lebronImgs/" + getRandomItem(images.shoes);
+        shoesImageElement.src = "lebronImgs/" + getRandomItem(images.shoes);
     });
 });
 
