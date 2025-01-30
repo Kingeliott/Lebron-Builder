@@ -26,10 +26,10 @@ let chestImageElement = document.querySelector(".chestImage");
 let shortsImageElement = document.querySelector(".shortsImage");
 let shoesImageElement = document.querySelector(".shoesImage");
 
-headImageElement.src = "/lebronImgs/" + getRandomItem(images.head);
-chestImageElement.src = "/lebronImgs/" + getRandomItem(images.chest);
-shortsImageElement.src = "/lebronImgs/" + getRandomItem(images.shorts);
-shoesImageElement.src = "/lebronImgs/" + getRandomItem(images.shoes);
+headImageElement.src = "lebronImgs/" + getRandomItem(images.head);
+chestImageElement.src = "lebronImgs/" + getRandomItem(images.chest);
+shortsImageElement.src = "lebronImgs/" + getRandomItem(images.shorts);
+shoesImageElement.src = "lebronImgs/" + getRandomItem(images.shoes);
 
 let randomizeHead = document.querySelectorAll(".randomizeHead");
 let randomizeChest = document.querySelectorAll(".randomizeChest");
