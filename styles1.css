@@ -1,0 +1,170 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #fefefe;
+
+}
+
+#headerBlock {
+    background-color: #B2A5FF;
+    padding: 10px 0 10px 0;
+    border-right: 30px solid #493D9E;
+    border-left: 30px solid #493D9E;
+    justify-content: center;
+}
+
+#title {
+    color: #441752 ;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height:100vh;
+    background-color: #fefefe;
+}
+
+.box .bigBox {
+    position: relative;
+    border: 0px solid black;
+    border-radius: 0px;
+    height: 100px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: -30px auto;
+    padding: 0;
+}
+
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between; /* Distribute space between buttons */
+    align-items: center;
+    gap:20px;
+    width: 100%; /* Ensure it takes the full width */
+    margin: 0px 0;
+    padding: 0;
+}
+
+.btn {
+    position: relative;
+    background-color: #493D9E;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    text-decoration:solid;
+  
+}
+.btn.two {
+
+    background-color: #493D9E;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    text-decoration:solid;
+    justify-content: flex-end;
+   
+    
+}
+.btn:active {
+    cursor:copy; /* On click: grabbing cursor */
+}
+
+
+img {
+    display: block; /* Removes extra space below the image */
+    margin: -20px auto; /* Removes any margin around the image */
+    padding: 0; /* Removes padding if any */
+}
+
+.imageElement {
+    max-width: 200px; /* Adjust the image size */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the space */
+    margin: -20px 0px; /* Optional: Add space between image and buttons */
+    display: block;
+}
+.centerButton {
+    margin-top: 30px; /* Space above the button */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    padding: 20px 0; /* Add some padding around the button */
+}
+
+.stacked-images {
+    display: flex; /* Align images in a column */
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+    justify-content: flex-start; /* Align images from the top */
+    margin: -20px; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.stacked-images img {
+    display: block;
+    margin: -20px 0; /* Negative top & bottom margin to pull images closer */
+    padding: 0;
+    border: none;
+    width: auto;
+    height: auto;
+}
+.generate{
+    padding: 0px auto;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+.character-image {
+    width: 100px;  /* Set uniform width */
+    height: 100px; /* Set uniform height */
+    object-fit: cover; /* Ensures images fill the space without distortion */
+    display: block; /* Removes extra spacing issues */
+    margin: -20px auto; /* Centers the image */
+}
+.headImage {
+    height: 200px;
+    width: 250px;
+    margin:-20px auto;
+    padding: 0px;
+}
+
+.chestImage {
+    max-width: 20%; /* Reduce from 20%-30% */
+    max-height: 15%;
+    display: flex;
+    justify-content:center;
+    margin:-20px auto;
+    padding: 0px;
+    z-index: -1;
+}
+
+.shortsImage {
+    max-width: 20%; /* Reduce from 20%-30% */
+    max-height: 15%;
+    display: flex;
+    justify-content:center;
+    margin: -20px auto;
+}
+
+.shoesImage {
+    max-width: 15%; /* Reduce from 20%-30% */
+    max-height: 15%;
+    display: flex;
+    justify-content:center;
+    margin: -20px auto;
+}
+
+.headImage, .chestImage, .shortsImage, .shoesImage {
+    display: block;
+    margin: -25px auto; /* Adjust overlap */
+    padding: 0; /* Reset padding */
+}
